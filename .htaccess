@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|_panel|robots\.txt|styles|js|Scripts|karuzela2.swf|ajax_search.php|temp|googlee0fa61dead3abe8c.html)
+RewriteRule ^(.*)$ /index.php?/$1 [QSA]

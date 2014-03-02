@@ -1,0 +1,19 @@
+.tabs { list-style: none; height: 33px; }
+.tabs li, .tabs2 li { float: left; }	
+.tabs2 { list-style: none; background: url(../images/html/shadow-big.png) 0% 100% no-repeat;  padding: 0 30px 9px 30px; margin: 0;  overflow: hidden;}
+.tabs li a { display:block; }
+.tabs2 li a { display:block; padding: 14px 10px; color:#666666; font: normal 12px/17px Helvetica; margin: 0 20px 0 0;  }
+.tabs2 li a.current { background: url(../images/html/arrow-prod.png) center bottom no-repeat; color:#00a5db; text-decoration: none; }
+.tabCat a { background: url(../images/html/menu_marki.gif) top left no-repeat; margin: 0 1px 0 0;   }
+.tabProd a { background: url(../images/html/menu_producenci.gif) top left no-repeat;  }
+.tabCat a.current { background: url(../images/html/menu_marki_on.gif) top left no-repeat;   }
+.tabProd a.current { background: url(../images/html/menu_producenci_on.gif) top left no-repeat;   }
+/* tab pane */
+.panes .menuSeg {
+	display:none;
+	
+}
+.panes2 div { padding: 10px 40px 20px; }
+.panes2 div div { padding: 5px 0 5px 0; }
+.panes2 div ul { list-style: inside;}
+.panes2 div ol { list-style: decimal inside;}

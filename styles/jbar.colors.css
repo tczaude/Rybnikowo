@@ -1,0 +1,11 @@
+.notification
+{
+	background: #129FC7;
+}
+
+.notification.warning
+{
+	background:#D6372F;
+}
+.notification.warning .jbar-content { background: url(../images/html/icon_message_bad.png) 0 50% no-repeat; padding: 0 0 0 25px; }
+.notification .jbar-content { background: url(../images/html/icon_message_ok.png) 0 50% no-repeat; padding: 0 0 0 35px; }

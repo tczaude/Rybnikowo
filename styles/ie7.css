@@ -1,0 +1,5 @@
+.content .basketProd tbody td.bprice { background-position: -200px 0px; }
+.content .basketProd tbody td.bcount { background-position: -200px 0; }
+.content .basketProd tbody td.bvalue { background-position: -450px 0; }
+.content .basketProd tbody td.bcount { background-position: -350px 0; }
+.content .basketProd tbody td.bdelete { background-position: -670px 0; }
