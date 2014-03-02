@@ -11,7 +11,7 @@
 {else}
 <link rel="image_src" href="{$DP}images/html/rybnikowo.png" alt="rybnikowo.pl" />
 {/if}
-<meta name="author" content="Code13 - www.code13.pl" />
+<meta name="author" content="esalamandra" />
 <link rel="stylesheet" type="text/css" href="{$DP}styles/style.css">
 
 <link href="{$DP}styles/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css">
@@ -27,6 +27,7 @@
 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 
+{*
 {literal}
 <script type="text/javascript">
 
@@ -42,6 +43,6 @@
 
 </script>
 {/literal}
-
+*}
 
 </head>
