@@ -24,3 +24,6 @@
 	
 </body>
 </html>
+<link rel="stylesheet" type="text/css" href="{$DP}styles/style.css">
+<link href="{$DP}styles/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{$DP}styles/paginator.css">
