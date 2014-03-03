@@ -8,10 +8,10 @@
 
      global $__DB_CFG;
      $__DB_CFG = array(
-          'database' => 'wmurassql1',
-          'host' => '127.0.0.1',
-          'user' => 'wmurassql1',
-          'pass' => '2MwMzZkZWN',
+          'database' => '',
+          'host' => '',
+          'user' => '',
+          'pass' => '',
           'driver' => 'mysql',
      );
      
