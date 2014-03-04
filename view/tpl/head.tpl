@@ -1,4 +1,4 @@
-<head>
+<head profile="http://dublincore.org/documents/2008/08/04/dc-html/">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>{if $tags.title}{$tags.title|strip_tags}{if $head.title} - {$head.title|strip_tags}{/if} - www.rybnikowo.pl{else}{if $head.title}{$head.title|strip_tags} - {/if}www.rybnikowo.pl{/if}</title>
 <link rel="shortcut icon" href="{$DP}images/html/favicon.ico" type="image/x-icon">
@@ -12,15 +12,18 @@
 <link rel="image_src" href="{$DP}images/html/rybnikowo.png" alt="rybnikowo.pl" />
 {/if}
 <meta name="author" content="esalamandra" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript" src="{$DP}js/ddaccordion.js"></script>
-<script type="text/javascript" src="{$DP}js/jquery.validate.js"></script>
-<script type="text/javascript" src="{$DP}js/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript" src="{$DP}js/cookie.policy.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" async></script>
+<script type="text/javascript" src="{$DP}js/ddaccordion.js" async></script>
+<script type="text/javascript" src="{$DP}js/jquery.validate.js" async></script>
+<script type="text/javascript" src="{$DP}js/jquery.fancybox-1.3.4.pack.js" async></script>
+<script type="text/javascript" src="{$DP}js/cookie.policy.min.js" async></script>
 <!--[if lt IE 9]>
 <script type="text/javascript" src="{$DP}js/html5.js"></script>
 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
+
+{include file="meta_ext.tpl"}
+
 
 
 </head>
