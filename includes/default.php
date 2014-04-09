@@ -5,9 +5,9 @@
 
 	//print_r($_SERVER['HTTP_HOST']);
 	
-	if($_SERVER['HTTP_HOST'] == "rybnikowo.pl"){
+	if($_SERVER['HTTP_HOST'] == "www.rybnikowo.pl"){
 		
-		header("Location: http://www.rybnikowo.pl");
+		header("Location: http://rybnikowo.pl");
 		
 		
 	}
